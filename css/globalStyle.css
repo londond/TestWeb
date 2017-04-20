@@ -1,0 +1,276 @@
+/* Global CSS Document */
+/* These styles will override any bootstrap classes */
+
+/*Google Font Import */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+
+/* Start Header Styles */
+a:focus { text-decoration: none; outline: 0; }
+
+body { background: #f4f4f4; color: #444444; font-size: 16px; font-family: 'Open Sans', sans-serif; }
+
+header { background: #ffffff; }
+header .appLinks { text-align: right; position: absolute; bottom: 15px; right: 15px; }
+header .appLinks a { color: #999999; font-size: 80%; padding-left: 10px; transition: 0.2s all ease; }
+header .appLinks a:hover { color: #f05d2a; text-decoration: none; }
+header .appBrand { padding: 25px 0px; position: relative; }
+header .appLogo { border-right: 1px solid #cccccc; display: table-cell; padding-right: 15px; vertical-align: middle; }
+header .appLogo img { width: 100%; max-width: 115px; }
+header .appTitle { display: table-cell; font-size: 200%; font-weight: 400; padding-left: 15px; vertical-align: middle; }
+header .appTitle a { color:#f05d2a; text-decoration: none; }
+header .appUser { position: absolute; top: 55px; right: 15px; color: #999999; font-size: 80%; padding-left: 10px; }
+
+nav { background: #ffffff; /* Old browsers */ background: -moz-linear-gradient(top,  #ffffff 22%, #cccccc 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(top,  #ffffff 22%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(to bottom,  #ffffff 22%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */ }
+nav .navWrap { border-top: 1px solid #cccccc; border-right: 0px; border-left: 0px; padding: 0px 0px; }
+nav ul { outline: 0px solid red; display: table; margin: 0; padding: 0px 0px; }
+nav li { border: 1px solid #cccccc; border-top: 0; border-bottom: 0; display: block; float: left; list-style: none; padding: 0px; transition: 0.2s all ease; }
+nav li:hover { background: #ffffff; }
+nav li a, nav li a:focus { color: #444444; display: block; font-weight: 600; padding: 20px 0px; text-align: center; transition: 0.2s all ease; width: 150px; }
+nav li a:hover { color: #444444; text-decoration: none; }
+
+.selected { background: #ffffff; }
+
+.subNav a, .subNav a:focus { color: #444444; font-weight: 600; transition: 0.2s all ease; }
+.subNav a:hover { color: #f05d2a; text-decoration: none; }
+.subNav ul { margin: 0; padding: 20px 0px; }
+.subNav li { list-style: none; display: inline; padding: 20px; }
+.subNavList { display: none; }
+.subNavShow { display: inline-block; }
+.subNavWrap { background: #ffffff; border-bottom: 0px solid #cccccc; }
+/* End Header Styles */
+
+/* Global Styles */
+.alert { margin: 15px 0px; }
+
+.appButton input[type="submit"] { 
+  border: 1px solid #999999;
+  padding: 10px 30px; 
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ffffff 0%, #cccccc 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #ffffff 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px; 
+  font-weight: 600;
+  box-shadow: 0px 1px 1px #b7b7b7;
+  -web-kit-box-shadow: 0px 1px 1px #b7b7b7;
+  -moz-box-shadow: 0px 1px 1px #b7b7b7;
+  margin: 0px 5px;
+}
+.appButton input[type="submit"]:hover { 
+  border: 1px solid #999999;
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ffffff 0%, #bebebe 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#bebebe 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #ffffff 0%,#bebebe 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#bebebe',GradientType=0 ); /* IE6-9 */
+}
+.appButton input[type="submit"]:focus { outline: none; }
+.appButtonLink { 
+  border: 1px solid #999999;
+  padding: 10px 30px; 
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ffffff 0%, #cccccc 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #ffffff 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px; 
+  font-weight: 600;
+  box-shadow: 0px 1px 1px #b7b7b7;
+  -web-kit-box-shadow: 0px 1px 1px #b7b7b7;
+  -moz-box-shadow: 0px 1px 1px #b7b7b7;
+  margin: 0px 5px;
+}
+.appButtonLink:hover {
+  border: 1px solid #999999;
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ffffff 0%, #bebebe 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#bebebe 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #ffffff 0%,#bebebe 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#bebebe',GradientType=0 ); /* IE6-9 */
+}
+.appButtonLink:focus { outline: none; }
+.appButtonWrap a.appButtonLink { color: #444444; }
+.appButtonWrap { padding: 30px 0px; text-align: right; }
+.appButtonWrap a { color: #f05d2a; font-weight: 600; }
+.appButtonWrap a:hover { text-decoration: none; }
+
+.appCheck { margin-bottom: 20px; }
+
+.appError { color: #ff0000; padding: 0px; margin: 0px }
+
+.appHelpWrapper { border: 0px solid red; position: absolute; z-index: 100; top: 110px; right: 15px; background: #ffffff; box-shadow: 0px 0px 4px #999999; }
+ul.appHelpMenu { margin: 0; padding: 0; list-style: none; }
+.appHelpMenu a { color: #f05d2a; font-size: 12px; font-weight: 600; }
+.appHelpMenu a:hover { text-decoration: none; }
+.appHelpMenu li { border-bottom: 1px solid #cccccc; padding: 10px 20px; }
+
+.appInput input { border: 1px solid #cccccc; width: 100%; padding: 10px 5px; margin-bottom: 10px; }
+.appInput input:focus { outline: none; }
+.appInputReadonly input { background: #d3d3d3; border: 1px solid #cccccc; width: 100%; padding: 10px 5px; margin-bottom: 10px; }
+.appInput select { border: 1px solid #cccccc; padding: 10px 5px; width: 100%; }
+.appInput textarea { border: 1px solid #cccccc; padding: 10px 5px; width: 100%; }
+.appInputLine input { display: inline; border: 1px solid #cccccc; width: 100%; padding: 10px 5px; margin-bottom: 10px; }
+.appInputMed input { border: 1px solid #cccccc; width: 50%; padding: 10px 5px; margin-bottom: 10px; }
+.appInputMed input:focus { outline: none; }
+
+.appLabel { font-weight: 600; margin-bottom: 5px; }
+.appLabelLine { display: inline; font-weight: 600; margin-bottom: 5px; }
+
+.appLogo { border-right: 1px solid #cccccc; display: table-cell; padding-right: 15px; vertical-align: middle; }
+.appLogo img { width: 100%; max-width: 115px; }
+
+.appMessage { background: #ffffff; box-shadow: 0px 0px 4px #cccccc; padding: 30px; font-size: 20px; font-weight: 300; line-height: 32px; margin: 20px 0px; }
+.appMessageWelcome { color: #ffffff; padding: 30px; margin-bottom: 20px; font-size: 20px; font-weight: 300; background: #000000; }
+
+.appNotice { float: left; }
+
+.appOutput { font-size: 26px; font-weight: 300; margin-bottom: 15px; }
+
+.appPager { display: inline; }
+.appPager a { padding-right: 5px; }
+
+.appRadio { margin-bottom: 20px; }
+
+.appSearch .appButton { display: inline; }
+.appSearch .appInput { display: inline; }
+.appSearch .appInput input { width: 40%; }
+.appSearch .appInput input[type="file"] { width: 100%; }
+.appSearch .col-sm-5:nth-child(1) { padding-right: 5px; }
+.appSearch .col-sm-7:nth-child(2) { padding: 0px; }
+
+.appSectionContent { padding: 20px; }
+
+.appScroll ul { list-style: none; padding: 0; margin: 0; }
+.appScroll li { padding: 0px; }
+.appScroll li:hover { background: #e4e4e4; }
+.appScroll li a, .appScroll li a:focus { color: #444444; display: block; padding: 20px; }
+.appScroll li a:hover { text-decoration: none; }
+.appScroll .appSectionContent { padding: 0; }
+
+.appSectionWrap { box-shadow: 0px 0px 4px #cccccc; background: #ffffff; margin: 20px 0px; }
+.appSectionWrap.appScroll { max-height: 617px; overflow-y: scroll; }
+
+.appSectionTitle { background: #19194d; color: #ffffff; padding: 20px 30px; font-size: 20px; font-weight: 300; }
+
+.appTable { padding: 0px; margin: 0px 0px; }
+.appTable a { color: #444444; }
+.appTable a:hover, .appTable a:focus { color: #f05d2a; text-decoration: none; }
+.appTable table { border: 0; text-align: left; width: 100%; }
+.appTable td { padding: 15px; }
+.appTable th { border-bottom: 1px solid #cccccc; font-weight: 700; padding: 15px; }
+.appTable tr { border-bottom: 1px solid #cccccc; }
+.appTable tr:hover { background: #f4f4f4; }
+.appTable tr:hover:first-child { background: none; }
+.appTable .appButtonWrap { padding: 30px 15px; }
+
+.appTitle { color: #f05d2a; display: table-cell; font-size: 200%; font-weight: 400; padding-left: 15px; vertical-align: middle; }
+
+.brandWrap { display: table; margin: auto; }
+
+/*.container { width: 1200px; }*/
+
+.contentWrap { border-top: 1px solid #cccccc; }
+
+.footerWrap { background: #999999; color: #ffffff; padding: 30px; font-size: 14px; font-weight: 300; }
+
+.hidden { display: none !important; }
+
+.loginButton { padding: 20px 0px; }
+.loginButton input[type="submit"] { 
+  border: 1px solid #999999;
+  padding: 10px 30px; 
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ffffff 0%, #cccccc 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #ffffff 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px; 
+  font-weight: 600;
+  box-shadow: 0px 1px 1px #b7b7b7;
+  -web-kit-box-shadow: 0px 1px 1px #b7b7b7;
+  -moz-box-shadow: 0px 1px 1px #b7b7b7;
+}
+.loginButton input[type="submit"]:hover { 
+  border: 1px solid #999999;
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ffffff 0%, #bebebe 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#bebebe 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #ffffff 0%,#bebebe 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#bebebe',GradientType=0 ); /* IE6-9 */
+}
+.loginButton input[type="submit"]:focus { outline: none; }
+
+.loginFormWrap { text-align: center; }
+.loginInput { padding: 10px 0px; }
+.loginInput input[type="text"], .loginInput input[type="password"] { border: 1px solid #cccccc; width: 100%; max-width: 500px; padding: 10px 5px; text-align: center; }
+.loginInput input[type="text"], .loginInput input[type="password"]:focus { outline: 0px; }
+.loginLabel { font-weight: 600; }
+.loginMessage { font-size: 1.5em; font-weight: 300; padding: 40px 0px; text-align: center; }
+.loginWrap { background: #ffffff; box-shadow: 0px 0px 4px #cccccc; margin: 40px auto; max-width: 900px; padding: 60px 40px; }
+
+/**** David's Table Styles ****/
+.metertestrec { color: #000000; background-color: #ffffff; width: 50%}
+.metertestrec tr td { color: #000000; background-color: #ffffff; }
+.metertestrec h4 { color: red; }
+.metertestsearch th { color: #000000; padding: 1px 20px 1px 1px; }
+.metertestsearch td { border: 1px solid #cccccc; color: #000000; }
+.metertestrec input[type="submit"] {
+    border: 1px solid #999999;
+    padding: 10px 30px;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #cccccc 100%);
+    background: -webkit-linear-gradient(top, #ffffff 0%,#cccccc 100%);
+    background: linear-gradient(to bottom, #ffffff 0%,#cccccc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cccccc',GradientType=0 );
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    font-weight: 600;
+    box-shadow: 0px 1px 1px #b7b7b7;
+    -web-kit-box-shadow: 0px 1px 1px #b7b7b7;
+    -moz-box-shadow: 0px 1px 1px #b7b7b7;
+}
+.metertestrec input[type="submit"]:hover {
+  border: 1px solid #999999;
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ffffff 0%, #bebebe 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#bebebe 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #ffffff 0%,#bebebe 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#bebebe',GradientType=0 ); /* IE6-9 */
+}
+.metertestrec input[type="text"] {
+    border: 1px solid #cccccc;
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+}
+.metertestrec input[type="text"]:focus {
+	outline: none;
+}
+
+/**** Pagination Styles Overrides ****/
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+  background-color: #19194d;  
+  border-color: #19194d;
+}
+
+.pagination-lg>li>a, .pagination-lg>li>span { color: #19194d; }
+
+/* Media Queries */
+@media only screen and (max-width: 768px) { 
+  .appTable { overflow-y: hidden; overflow-x: scroll; }
+  .loginWrap { margin: 10px ; padding: 20px; }
+}
+
+@media only screen and (max-width: 480px) {
+  .appSectionWrap { margin-bottom: 20px; }
+  header .appLinks { position: relative }
+  .loginButton input[type="submit"] { width: 100%; }
+}
